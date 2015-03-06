@@ -6,6 +6,11 @@
 ##   Reads in household_power_consumption.txt dataset and constructs plots
 ##   from two days worth of data from 1st and 2nd of Feb, 2007.
 ##
+##   The data file is available on the course website at: 
+##   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+##   and comes from the UC Irvine Machine Learning Repository
+##   This function assumes that the data file has already been downloaded.
+##
 plot1 <- function(){
      ##   Read in the data - but only interested in two days of it
      ##   fread() creates warnings due to "?", don't want to see those.

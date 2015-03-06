@@ -1,6 +1,11 @@
 ##   Code to create plot4 for course project 1 in Coursera course: Exploratory
 ##   Data Analysis.  
 ##
+##   The data file is available on the course website at: 
+##   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+##   and comes from the UC Irvine Machine Learning Repository
+##   This function assumes that the data file has already been downloaded.
+##
 ##
 plot4 <- function(){
      ##   Read in the data - but only want the two days of interest

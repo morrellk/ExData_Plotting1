@@ -1,6 +1,11 @@
 ##   Code to create plot3 for course project 1 in Coursera course: Exploratory
 ##   Data Analysis.  
 ##
+##   The data file is available on the course website at: 
+##   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+##   and comes from the UC Irvine Machine Learning Repository
+##   This function assumes that the data file has already been downloaded.
+##
 ##
 plot3 <- function(){
      ##   Read in the data -  two days of interest
